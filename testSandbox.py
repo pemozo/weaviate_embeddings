@@ -1,5 +1,6 @@
 import weaviate
 import os
+import pandas as pd
 
 print('Test Sandbox')
 
