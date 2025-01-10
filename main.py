@@ -48,4 +48,4 @@ print(data.head())
 # # client.schema.create_class(schema)
 
 # schema = client.schema.get()
-# print("Cluster schema:", schema)
+# print("Cluster schema:", schema
