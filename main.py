@@ -3,10 +3,6 @@ import os
 import pandas as pd
 from dotenv import load_dotenv
 
-current_path = os.getcwd()
-parent_path = os.path.dirname(current_path)
-file_path = os.path.join(parent_path, ".env")
-
 # Load environment variables from .env file
 load_dotenv()
 
@@ -15,9 +11,9 @@ file_path = os.getenv("FILE_PATH")
 print(file_path)
 
 # Load the data
-data = pd.read_pickle(file_path)
+# data = pd.read_pickle(file_path)
 
-print(data.head())
+# print(data.head())
 
 
 
