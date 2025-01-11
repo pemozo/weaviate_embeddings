@@ -2,3 +2,7 @@
 venv/
 # Ignore environment variables file
 .env
+
+# Ignore workspace files
+*.code-workspace
+.vscode/
