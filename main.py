@@ -8,7 +8,7 @@ load_dotenv()
 
 # Get the file path from the environment variable
 file_path = os.getenv("FILE_PATH")
-print("Env file path: ",file_path)
+print(file_path)
 
 # Load the data
 # data = pd.read_pickle(file_path)
