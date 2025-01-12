@@ -1,8 +1,15 @@
 # Ignore Python virtual environment
-venv/
+.venv/
+
 # Ignore environment variables file
 .env
 
 # Ignore workspace files
 *.code-workspace
 .vscode/
+
+# Ignore Python Dataset
+Dataset/
+
+# Ignore Models
+models/
