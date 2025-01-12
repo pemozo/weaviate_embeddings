@@ -3,17 +3,18 @@ import os
 import pandas as pd
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+
+# # Load environment variables from .env file
 load_dotenv()
 
-# Get the file path from the environment variable
-file_path = os.getenv("FILE_PATH")
+# # Get the file path from the environment variable
+file_path = os.getenv("PATH_TO_ORIGINAL_DATA")
 print(file_path)
 
-# Load the data
-# data = pd.read_pickle(file_path)
+# # Load the data
+# # data = pd.read_pickle(file_path)
 
-# print(data.head())
+# # print(data.head())
 
 
 
