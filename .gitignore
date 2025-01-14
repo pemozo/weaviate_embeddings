@@ -13,3 +13,5 @@ Dataset/
 
 # Ignore Models
 models/
+
+embed_weaviate.ipynb
