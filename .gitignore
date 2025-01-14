@@ -7,11 +7,3 @@
 # Ignore workspace files
 *.code-workspace
 .vscode/
-
-# Ignore Python Dataset
-Dataset/
-
-# Ignore Models
-models/
-
-embed_weaviate.ipynb
