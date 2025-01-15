@@ -14,3 +14,5 @@ models/
 Dataset/
 
 _pycache_/
+
+test.py
