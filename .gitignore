@@ -12,3 +12,5 @@
 models/
 
 Dataset/
+
+_pycache_/
